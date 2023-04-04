@@ -7,6 +7,3 @@ router.get('/', (req, res) => {
 
 module.exports = router
 
-git add .
-git commit -m "Adding places controller"
-git push origin main
