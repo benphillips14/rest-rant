@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+  }
+body{
+    background-color: violet;
+    text-align: center;
+}
+main{
+    margin-right: 20px;
+    margin-left:  20px;
+    background-color: rgb(255, 240, 220);
+}
+.strawberry{
+    height: 250px;
+    width: 250px;
+}
+.mountainpic{
+    height: 350px;
+    width: 350px;
+    /* Added CSS to center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%
+}
+/* Place CSS images */
+.Seattle, .Phoenix, img{
+    height: 400px;
+    width: 300px;
+}
+.form-control{
+    margin: 0;
+    width:50%;
+    position: relative;
+    left:375px;
+}
+/* Nav bar CSS */
+nav{
+    background-color: burlywood;
+    padding: 10px
+}
+nav ul{
+    /* This is to get rid of the dots */
+    list-style-type: none;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 25px;
+}
+nav a{
+    color: grey;
+    font-size: 2em;
+}
+/* This is when you hover over a link */
+nav a:hover{
+    color: purple;
+    text-decoration: none;
+}

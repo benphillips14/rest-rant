@@ -1,6 +1,5 @@
-
 {
-  "name": "rest-rant2",
+  "name": "restrant",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwong65/Rest-Rant.git"
+    "url": "git+https://github.com/benphillips14/restrant.git" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jwong65/Rest-Rant/issues"
+    "url": "https://github.com/benphillips14/restrant/issues" 
   },
-  "homepage": "https://github.com/jwong65/Rest-Rant#readme",
+  "homepage": "https://github.com/benphillips14/restrant#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -25,6 +24,8 @@
     "method": "^2.0.0",
     "method-override": "^3.0.0",
     "mongoose": "^6.8.2",
+    "n": "^9.0.1",
+    "nodemon": "^2.0.22",
     "react": "^16.14.0"
   },
   "nodemonConfig": {

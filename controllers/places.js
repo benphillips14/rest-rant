@@ -19,7 +19,7 @@ router.post('/', (req, res)=>{
 
     }
     else{
-      res.render('404')
+      res.render('error404')
     }
     
   })
@@ -62,7 +62,7 @@ router.get('/', (req, res)=>{
     })
     .catch(err=>{
       console.log(err)
-      res.render('404')
+      res.render('error404')
     })
 })
 router.get('/:id', (req, res) => {
@@ -73,7 +73,7 @@ router.get('/:id', (req, res) => {
     res.render('places/show', {place})
   })
   .catch(err=>{
-    res.render('404')
+    res.render('error404')
   })
   //id has to be definied
   // let id = Number(req.params.id)
@@ -99,7 +99,7 @@ router.put('/:id', (req, res) => {
       res.redirect(`/places/${req.params.id}`)
     })
     .catch(err=>{
-      res.render('404')
+      res.render('error404')
     })
   // let id = Number(req.params.id)
   // if (isNaN(id)) {
@@ -132,7 +132,7 @@ router.get('/:id/edit', (req, res) => {
       res.render('places/edit', {place})
     })
     .catch(err=>{
-      res.render('404')
+      res.render('error404')
     })
   // let id = Number(req.params.id)
   // if(isNaN(id)){
@@ -159,12 +159,12 @@ router.post('/:id/comment', (req, res)=>{
         res.redirect(`/places/${req.params.id}`)
       })
       .catch(err=>{
-        res.render('404')
+        res.render('error404')
       })
     })
   })
   .catch(err=>{
-    res.render('404')
+    res.render('error404')
   })
 })
 router.delete('/:id/', (req, res)=>{
@@ -173,7 +173,7 @@ router.delete('/:id/', (req, res)=>{
     res.redirect('/places')
   })
   .catch(err=>{
-    res.render('404')
+    res.render('error404')
   })
 })
 
